@@ -1,4 +1,7 @@
-# WeekCalendar
+# daysofweek
+
+Small angular component that show the days of the week highliting the current day.
+Available in Italian, English and German.
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.1.2.
 
