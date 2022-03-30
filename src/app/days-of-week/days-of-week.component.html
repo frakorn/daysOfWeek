@@ -1,6 +1,6 @@
 <div class="days-container">
     <div class="days" *ngFor="let day of daysOfWeek[defaultLanguage];let i = index">
-        <div class="day-box" [ngClass]="{ today: dayNumber === i }">
+        <div class="day-box" [ngClass]="{ today: dayNumber === i, 'other-day':dayNumber !== i }">
             <span class="day-label">{{day}}</span>
         </div>
     </div>
