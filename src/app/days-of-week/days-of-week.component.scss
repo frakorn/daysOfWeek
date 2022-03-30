@@ -1,0 +1,25 @@
+.days-container{
+    display:flex;
+    justify-content: space-around;
+    background-image: linear-gradient(to right,#1E8CC8,#00DCB4);
+    color:white;
+    padding: 15px 0 15px 0;
+    border-radius:10px;
+    font-family: sans-serif;
+}
+
+.day-box{
+    padding:5px;
+    border-radius:50%;
+    height: 40px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: dashed 1px;
+}
+
+.today{
+    border: 1px solid white;
+}
+
