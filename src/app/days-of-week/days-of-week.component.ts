@@ -13,6 +13,7 @@ export class DaysOfWeekComponent implements OnInit {
     'ger': ['Mon','Die','Mit','Don','Fre','Sam','Son']
   };
 
+  // set default language as 'eng'
   defaultLanguage : string = 'eng';
 
   dayNumber: number;
